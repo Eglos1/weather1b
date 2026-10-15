@@ -1,0 +1,16 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<meta http-equiv="refresh" content="12"><title>TS-LLM — People's Speech Text (500M) · LIVE</title>
+<style>body{background:#0e1117;color:#d6deeb;font:14px/1.5 ui-monospace,Menlo,monospace;padding:36px 24px}
+.box{max-width:880px;margin:0 auto;background:#151a25;border:1px solid #2a3444;border-radius:12px;padding:22px 26px}
+h1{font-size:20px;color:#7aa2ff;margin:0 0 8px} .live{color:#7aa2ff;animation:blink 2s infinite;font-size:13px}
+@keyframes blink{50%{opacity:.25}}
+.card{background:#0b0f16;border:1px solid #2a3444;border-radius:10px;padding:12px 16px;margin:10px 0}
+.card b{font-size:21px;color:#7aa2ff} pre{background:#0b0f16;border:1px solid #2a3444;border-radius:8px;padding:12px;font-size:12px;white-space:pre-wrap}
+.mut{color:#8aa0b8;font-size:12.5px}</style></head><body><div class="box">
+<h1>People's-Speech-Text LLM — 483.8M params</h1>
+<div class="live">● GPU busy 99% &nbsp;·&nbsp; VRAM 7.3/8.0 GiB &nbsp;·&nbsp; train.bin 305.9M tok &nbsp;·&nbsp; transcripts 30k / 1,501,271 train</div>
+<div class="card"><b>TRAINING NOW</b> &nbsp;24L x1280 · bf16 · Adafactor · auto-resume + crash-guard supervisor</div>
+<h3>trainer log</h3><pre>[llm 33200/250000] loss 12.5469  12 tok/s  1743305s&lt;br&gt;[llm 33225/250000] loss 12.4922  12 tok/s  1744637s&lt;br&gt;[llm 33250/250000] loss 12.4062  12 tok/s  1745970s&lt;br&gt;[llm 33275/250000] loss 12.2188  12 tok/s  1747302s&lt;br&gt;[llm 33300/250000] loss 12.4453  12 tok/s  1748635s&lt;br&gt;[llm 33325/250000] loss 12.2109  12 tok/s  1749969s&lt;br&gt;[llm 33350/250000] loss 12.0547  12 tok/s  1751302s&lt;br&gt;[llm 33375/250000] loss 12.2500  12 tok/s  1752635s&lt;br&gt;[llm 33400/250000] loss 11.9922  12 tok/s  1753969s&lt;br&gt;[llm 33425/250000] loss 11.9844  12 tok/s  1755303s</pre>
+<h3>supervisor log</h3><pre>[diag] vram free 1153MB (needs &gt;=5000)&lt;br&gt;[super] 2026-09-09T19:30:37-05:00 GPU busy (weather), waiting 90s&lt;br&gt;[diag] vram free 809MB (needs &gt;=5000)&lt;br&gt;[super] 2026-09-09T19:32:07-05:00 GPU busy (weather), waiting 90s&lt;br&gt;[diag] vram free 622MB (needs &gt;=5000)&lt;br&gt;[super] 2026-09-09T19:33:37-05:00 GPU busy (weather), waiting 90s&lt;br&gt;[diag] vram free 483MB (needs &gt;=5000)&lt;br&gt;[super] 2026-09-09T19:35:07-05:00 GPU busy (weather), waiting 90s&lt;br&gt;[super] 2026-09-09T19:36:37-05:00 rebuilding corpus+vocab, then launching&lt;br&gt;[super] 2026-09-09T19:38:51-05:00 GPU free, launching llm (resume auto)</pre>
+<p class="mut">WeatherNet stage-2 finished 18:38 — RMSE 3.70 °C. LLM took the GPU over at 06:54. (Watchdog: 30 s.)</p>
+</div></body></html>
